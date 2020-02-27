@@ -32,6 +32,7 @@ def find_greater_pair(src)
     greater_array << src[row_index]x
   row_index += 1
 end
+return greater_array
 end
 
 def total_even_pairs(src)
