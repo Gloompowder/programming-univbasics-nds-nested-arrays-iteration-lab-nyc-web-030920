@@ -28,9 +28,9 @@ def find_greater_pair(src)
     src[row_index].each do |index|
       if index > x 
         x = index
-      end
     greater_array << src[row_index]x
   row_index += 1
+end
 end
 return greater_array
 end
