@@ -23,14 +23,13 @@ def find_greater_pair(src)
   # that are in the inner Arrays
   row_index = 0 
   greater_array = []
-  x = 0 
   while row_index < src.count do 
-    src[row_index].each do |index|
-      if index > x 
-        x = index
-    greater_array << src[row_index]x
+    if src[row_index][0] > src[row_index][1] 
+      greater_array << src[row_index][0]
+    else
+      greater_array << src[row_index][1]
+    end
   row_index += 1
-end
 end
 return greater_array
 end
