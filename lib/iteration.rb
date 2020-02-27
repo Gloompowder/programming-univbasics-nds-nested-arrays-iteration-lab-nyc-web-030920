@@ -24,7 +24,7 @@ def find_greater_pair(src)
   row_index = 0 
   greater_array = []
   while row_index < src.count do 
-    greater_array << src[row_index].max
+    greater_array << src[row_index]
   row_index += 1
 end
 
