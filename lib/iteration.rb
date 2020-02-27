@@ -10,7 +10,8 @@ def join_ingredients(src)
   row_index = 0
   pizza_array = []
 while row_index < src.count do
-return "I love #{src[row_index][0]} and #{src[row_index][1]} on my pizza"
+  
+pizza_array << "I love #{src[row_index][0]} and #{src[row_index][1]} on my pizza"
 row_index += 1
 end
 end
