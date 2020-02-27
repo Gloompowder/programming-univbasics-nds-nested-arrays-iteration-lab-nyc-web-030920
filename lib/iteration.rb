@@ -11,7 +11,6 @@ def join_ingredients(src)
 while row_index < src.count do
 return "I love #{src[row_index][0]} and #{src[row_index][1]} on my pizza"
 end
-row_index += 1
 end
 
 def find_greater_pair(src)
