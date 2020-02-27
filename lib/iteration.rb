@@ -31,6 +31,7 @@ def find_greater_pair(src)
     greater_array << src[row_index]index
   row_index += 1
 end
+end
 
 def total_even_pairs(src)
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
