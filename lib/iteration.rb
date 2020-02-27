@@ -50,5 +50,5 @@ def total_even_pairs(src)
     end
   row_index += 1
 end
-greater_array.sum
+greater_array].sum
 end
