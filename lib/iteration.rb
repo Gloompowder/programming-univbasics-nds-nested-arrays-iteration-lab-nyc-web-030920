@@ -9,7 +9,7 @@ def join_ingredients(src)
   
   row_index = 0
 while row_index < src.count do
-return "I love #{src[row_index][0]} and #{src[row_index][1]} on my pizza"
+.collect! "I love #{src[row_index][0]} and #{src[row_index][1]} on my pizza"
 end
 end
 
